@@ -22,6 +22,13 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   return (
     <nav className={`nav${scrolled ? " scrolled" : ""}`} aria-label="Main navigation">
       <Link className="nav-brand" href="/" aria-label="Aerovique Suites home">
@@ -41,6 +48,8 @@ export function Header() {
         ))}
         <Link href="/#contact" className="nav-cta" onClick={() => setOpen(false)}>Book Now</Link>
       </div>
+
+      {open && <button className="nav-backdrop" type="button" aria-label="Close menu" onClick={() => setOpen(false)} />}
 
       <button
         className={`nav-toggle${open ? " active" : ""}`}
