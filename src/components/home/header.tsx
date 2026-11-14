@@ -46,7 +46,7 @@ export function Header() {
         {links.map(([label, href]) => (
           <Link href={href} key={href} onClick={() => setOpen(false)}>{label}</Link>
         ))}
-        <Link href="/#contact" className="nav-cta" onClick={() => setOpen(false)}>Book Now</Link>
+        <Link href="/#rooms" className="nav-cta" onClick={() => setOpen(false)}>Book Now</Link>
       </div>
 
       {open && <button className="nav-backdrop" type="button" aria-label="Close menu" onClick={() => setOpen(false)} />}

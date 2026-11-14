@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a2a4a"/>
+  <text x="200" y="140" font-family="system-ui" font-size="24" fill="#e4b95f" text-anchor="middle">ROOM 01</text>
+  <text x="200" y="180" font-family="system-ui" font-size="14" fill="#93a1ba" text-anchor="middle">Runway View Suite</text>
+  <rect x="150" y="200" width="100" height="2" fill="#e4b95f" opacity="0.3"/>
+  <text x="200" y="230" font-family="system-ui" font-size="12" fill="#93a1ba" text-anchor="middle">1 km from CIAL</text>
+</svg>

@@ -1,5 +1,6 @@
 import { About } from "@/components/home/about";
 import { Contact } from "@/components/home/contact";
+import { FindYourStay } from "@/components/home/find-your-stay";
 import { Footer } from "@/components/home/footer";
 import { Gallery } from "@/components/home/gallery";
 import { Header } from "@/components/home/header";
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <About />
         <Gallery />
+        <FindYourStay />
         <Contact />
       </main>
       <Footer />

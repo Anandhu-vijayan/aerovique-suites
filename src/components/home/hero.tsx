@@ -31,7 +31,7 @@ export function Hero() {
         <h1 className="hero-title">Your Perfect Stay,<span className="script">With a View</span>That Inspires</h1>
         <p className="hero-sub">Wake up to the sight of takeoffs and landings right from your window. A boutique stay one kilometre from Cochin International Airport — quiet, refined, and built for travellers in transit or at rest.</p>
         <div className="hero-actions">
-          <a href="#contact" className="btn btn-solid">Book Your Stay</a>
+          <a href="#rooms" className="btn btn-solid">Book Your Stay</a>
           <a href="#gallery" className="btn btn-ghost">Explore Rooms</a>
         </div>
       </div>
