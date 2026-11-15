@@ -12,12 +12,12 @@ interface Room {
 }
 
 const ROOMS: Room[] = [
-  { id: 1, name: "Room in hotel in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room1.avif", platform: "airbnb", platformIndex: 0 },
-  { id: 2, name: "Room in hotel in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room2.avif", platform: "airbnb", platformIndex: 1 },
-  { id: 3, name: "Room in hotel in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room3.avif", platform: "airbnb", platformIndex: 2 },
+  { id: 6, name: "Entire rental unit in Nedumbassery, India", description: "2 guests · 1 bedroom · 1 bed · 1 bathroom", image: "/images/room6.avif", platform: "airbnb", platformIndex: 0 },
+  { id: 5, name: "Room in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room5.avif", platform: "airbnb", platformIndex: 1 },
+  { id: 1, name: "Room in hotel in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room1.avif", platform: "airbnb", platformIndex: 2 },
   { id: 4, name: "Room in hotel in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room4.avif", platform: "airbnb", platformIndex: 3 },
-  { id: 5, name: "Room in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room5.avif", platform: "airbnb", platformIndex: 4 },
-  { id: 6, name: "Entire rental unit in Nedumbassery, India", description: "2 guests · 1 bedroom · 1 bed · 1 bathroom", image: "/images/room6.avif", platform: "airbnb", platformIndex: 5 },
+  { id: 3, name: "Room in hotel in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room3.avif", platform: "airbnb", platformIndex: 4 },
+  { id: 2, name: "Room in hotel in Nedumbassery, India", description: "1 king bed · Private attached bathroom", image: "/images/room2.avif", platform: "airbnb", platformIndex: 5 },
 ];
 
 const PLATFORM_LINKS = {
